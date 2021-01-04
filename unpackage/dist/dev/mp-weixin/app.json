@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/News/News",
+    "pages/Member/Member",
+    "pages/Card/Card",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/videos/videos",
+    "pages/News/Detail",
+    "pages/goods/Detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小马商城",
+    "navigationBarBackgroundColor": "#d81e06",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/News/News",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/mews-active.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/Card/Card",
+        "iconPath": "static/icon/card.png",
+        "selectedIconPath": "static/icon/card-active.png",
+        "text": "心愿"
+      },
+      {
+        "pagePath": "pages/Member/Member",
+        "iconPath": "static/icon/member.png",
+        "selectedIconPath": "static/icon/member-active.png",
+        "text": "会员"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap54.json"
+}

@@ -1,0 +1,1 @@
+<view class="news-container"><block wx:for="{{inforDatas}}" wx:for-item="item" wx:for-index="index" wx:key="index"><news-list vue-id="{{'5895f8e0-1-'+index}}" list="{{item}}" data-event-opts="{{[['^litemclick',[['handleDetail',['$0'],[[['inforDatas','',index]]]]]]]}}" bind:litemclick="__e" bind:__l="__l"></news-list></block></view>

@@ -1,0 +1,1 @@
+<view class="newDetail-container"><text class="title">{{$root.f0}}</text><view class="infor"><text>{{"时间："+item.time}}</text><text>{{"浏览："+item.look}}</text></view><view class="contant"><rich-text nodes="{{list[0].text}}"></rich-text></view></view>

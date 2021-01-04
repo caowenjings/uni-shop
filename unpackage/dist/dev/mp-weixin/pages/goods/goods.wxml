@@ -1,0 +1,1 @@
+<view class="goods-container"><good-list vue-id="576f0adc-1" goodDatas="{{goodDatas}}" data-event-opts="{{[['^clickbtn',[['goDetail']]]]}}" bind:clickbtn="__e" bind:__l="__l"></good-list><block wx:if="{{flag}}"><view class="bottom">---我是有底线的----</view></block></view>

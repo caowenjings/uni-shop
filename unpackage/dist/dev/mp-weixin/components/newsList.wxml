@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['handleDetail',['$event']]]]]}}" class="newslist-container" bindtap="__e"><image class="img" src="{{list.url}}" mode="aspectFill"></image><view class="news-infor"><view class="news-title">{{list.title}}</view><view class="news-icon"><text>{{"发表时间："+$root.f0}}</text><text>{{"浏览"+list.look}}</text></view></view></view>
